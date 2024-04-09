@@ -1,10 +1,10 @@
 import pyautogui as pag
 import time
-# image = 'cactus.png'
-# image = "setting.png"
-# image = "extention.png"
-image = 'excel2.png'
-# image = 'docker.png'
+# image = 'images/cactus.png'
+# image = "images/setting.png"
+# image = "images/extention.png"
+image = 'images/excel2.png'
+# image = 'images/docker.png'
 pag.useImageNotFoundException()
 try:
     findImage = pag.locateOnScreen(image, confidence =0.6)
